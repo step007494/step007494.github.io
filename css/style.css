@@ -169,5 +169,12 @@ footer {
     .container {
         text-align: center;
         color: #F0BF6C;
+        
+        .logo{
+            img {
+                width: 150px;
+                height: auto;
+            }
+        }
     }
 }
