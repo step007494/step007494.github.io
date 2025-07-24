@@ -178,3 +178,45 @@ footer {
         }
     }
 }
+
+
+
+@media (max-width: 750px) {
+
+    header{
+        .container{
+            display: flex;
+            flex-direction: column;
+            .logo{
+                display: none;
+            }
+            nav{
+                ul{
+                    flex-direction: column;
+                    padding: 0;
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+
+    main {
+        section.one {
+            .container {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                text-align: center;
+                .left, .right{
+                    width: auto;
+                }
+                .right{
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
